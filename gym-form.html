@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form-GYM</title>
+    <link rel="stylesheet" href="gym-form-style.css">
+</head>
+<body>
+
+    <div class="logo"><img src="assets/buckler_logo (1).svg" alt="logo"></div>
+    <div class="icon"><img  src="assets/icon.png"></div>
+    
+    <div class="title">CREATE YOUR FREE BOOKING PROFILE</div> <br>
+    <div class="container">
+
+        <form action="index.php" method="post">
+
+            <div class="details-title">Your Details :</div>
+            <div class="person-details">
+                
+            <div class="name">
+
+                
+                <input 
+                type="text"
+                 name="fname" 
+                 id="fname"
+                 placeholder="First Name"
+                 >
+
+                
+                <input 
+                type="text"
+                 name="lname" 
+                 id="lname"
+                 placeholder="Last Name"
+                 >
+            </div>
+
+
+            <div class="dob">
+                <label for="date">Date Of Birth :</label>
+                <input 
+                type="date" 
+                name="dob" 
+                id="dob">
+            </div>
+
+            <div class="gender">
+                <label for="gender">Gender :</label>
+                
+                    <input type="radio" name="gender" id="gender">
+                    <label for="male">Male</label>
+
+                    <input type="radio" name="gender" id="gender">
+                    <label for="female">Female</label>
+                
+            </div>
+
+        </div>
+
+
+        <br>
+
+
+        <div class="details-title">Contact Info :</div>
+            <div class="contact-info">
+                
+            <div class="mail">
+
+                
+                <input 
+                type="email"
+                 name="email" 
+                 id="email"
+                 placeholder="Email"
+                 >
+            </div>
+
+
+            <div class="telno">
+                
+                <input 
+                type="tel" 
+                name="telno" 
+                id="telno"
+                placeholder="Mobile-No">
+            </div>
+
+            
+
+        </div>
+
+
+      
+        <br>
+
+        <div class="details-title">Branch :</div>
+            <div class="branch">
+                
+            <div class="branch-name">
+
+                
+                <select name="branch-name" id="branch-name">
+                    <option selected disabled>Branch Name</option>
+
+                    <option value="">Osaka Fitness</option>
+                    <option value="">GenX Gym</option>
+                    <option value="">Renbow Fitness</option>
+                    <option value="">Luma Fitness</option>
+                </select>
+            </div>
+
+
+            <div class="branch-town">
+                
+                <select name="branch-town" id="branch-town">
+                    <option selected disabled>Branch Location</option>
+
+                    <option value="">Kandy</option>
+                    <option value="">Dambulla</option>
+                    <option value="">Matale</option>
+        
+                </select>
+
+            </div>
+
+            
+
+        </div>
+
+        <br>
+
+        <div class="details-title">Membership-Type :</div>
+            <div class="membership-type">
+                
+            <div class="type">
+
+                
+                <select name="Membership-Type" id="Membership-Type">
+                    <option selected disabled>Membership Type</option>
+
+                    <option value="">Silver</option>
+                    <option value="">Gold</option>
+                    <option value="">Diamond</option>
+                    
+                </select>
+            </div>
+
+
+            <div class="date">
+                
+                <select name="date" id="date">
+                    <option selected disabled>Start Month</option>
+                    
+                    <option value="">January</option>
+                    <option value="">Februvary</option>
+                    <option value="">Matale</option>
+        
+                </select>
+
+            </div>
+
+            
+
+        </div>
+
+
+        <br>
+
+        <div class="details-title">Membership-Duration :</div>
+            <div class="membership-duartion">
+                
+            <div class="duration">
+
+                
+                <select name="duration" id="duration" >
+                    <option selected disabled>Membership Duration</option>
+
+                    <option value="">1 Month</option>
+                    <option value="">3 Month</option>
+                    <option value="">6 Month</option>
+                    <option value="">1 Year</option>
+                    
+                </select>
+            </div>
+
+
+            <div class="price">
+                
+                <select name="price" id="price">
+                    <option selected disabled>Price </option>
+
+                    <option value="">10,000 One Person</option>
+                    <option value="">20,000 Couple</option>
+                    <option value="">35,000 Family</option>
+        
+                </select>
+
+            </div>
+
+            
+
+        </div>
+
+        <br>
+
+    <div class="btn">
+
+        <input 
+        type="submit"
+        id="submit"
+        value="Submit"
+        class="btn-submit"
+        >
+
+        <input 
+        type="reset"
+        id="reset"
+        value="Reset"
+        class="btn-reset"
+        >
+
+    </div>
+
+
+        </form>
+        
+
+
+    </div>
+    
+</body>
+</html>

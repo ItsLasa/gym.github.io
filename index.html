@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="logo"><img src="assets/buckler_logo (1).svg" alt="logo"></div>
+    
+    <h3>ENHANCING THE <br>
+        WORKOUT <br>
+        
+        EXPERIENCE</h3>
+
+        <p class="text">
+            We are a complete ecosystem of high-quality fitness <br> solutions. We offer high standard equipment and a variety of <br> services to set up your gym from scratch
+        </p>
+       
+         <div class="social-media">
+            <div class="ig"><img src="assets/icon-instagram.png"></div>
+           <div class="fb"><img src="assets/icon-facebook-squared.png" alt=""></div>
+        </div>
+        <a href="gym-form.html"><button>BECOME A MEMBER</button></a>
+    </div> 
+
+    <div class="cursor"></div>
+
+    <script>
+        const cursor=document.querySelector('.cursor');
+        document.addEventListener('mousemove',(e)=>{
+            cursor.style.left=e.pageX+'px';
+            cursor.style.top=e.pageY+'px';
+
+        })
+    </script>
+
+</body>
+</html>

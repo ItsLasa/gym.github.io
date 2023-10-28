@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:500,400");
+
+*{
+  font-family: "Encode Sans Condensed", Helvetica;
+  
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body{
+  background-image: url("assets/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+
+  
+}
+
+.logo img{
+  width: 20rem;
+  height: 60px;
+  margin-top: 20px;
+  margin-left: 50px;
+  
+
+}
+
+h3{
+  color: #e2dddb;
+  font-size: 90px;
+  font-weight: 200;
+  margin-left:50px;
+  margin-top:40px;
+  line-height: 6rem;
+  width: 46%;
+}
+
+
+.text{
+  color: #cccccc;
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 50px;
+  margin-top: -75px;
+}
+
+button{
+  text-align: center;
+  padding: 20px;
+  border:1px solid white;
+  border-radius: 50px;
+  background-color: #0000005c;
+  width: 35%;
+  height: 74px;
+  margin-left: 32%;
+  margin-top: -1rem;
+  color: whitesmoke;
+  font-size: 30px;
+  
+}
+button:hover{
+
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.social-media {
+  display: flex;
+  gap: 10px;
+}
+.ig img,.fb img{
+  position:relative;
+ width: 40px;
+ top: 3rem;
+ left: 3rem;
+
+}
+
+.ig img:hover,.fb img:hover{
+cursor: pointer;
+border-radius: 17px;
+
+ 
+}
+
+.cursor{
+ position: fixed;
+ width: 20px;
+ height: 20px;
+ border-radius: 50%;
+ background: #ffffff;
+ transition: 0.1s;
+ transform:translate(-50%,-50%) ;
+ pointer-events: none;
+ mix-blend-mode:difference;
+
+}
+
+h3:hover ~ .cursor{
+  transform: scale(6);
+}
+p:hover ~ .cursor{
+  transform: scale(3);
+}
+
+
+
+
+
+

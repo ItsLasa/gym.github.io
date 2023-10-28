@@ -1,0 +1,125 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    background: rgb(9,9,9);
+    background: linear-gradient(188deg, rgba(9,9,9,1) 0%, rgb(11, 10, 10) 100%);
+    background-repeat: repeat;
+    background-attachment:fixed;
+}
+
+.logo img{
+    width: 14%;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+.title{
+    color: white;
+    font-family:sans-serif;
+    margin-left: 120px;
+    margin-top: 2rem;
+    font-size: 20px;
+   
+}
+
+.details{
+    padding: 20px;
+    background-color: aquamarine;
+}
+
+.details-title{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight:600;
+}
+
+.details-input{
+    background: linear-gradient(188deg, rgba(58, 57, 56, 1) 0%, rgb(191, 187, 165) 100%);
+    padding: 10px;
+    width: 60rem;
+    height: 15rem;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.589);
+}
+input{
+    padding: 15px;
+    width: 17rem;
+    border-radius: 10px;
+    border: none;
+    margin-top: 14px;
+    margin-left: 5px;
+    font-size: 18px;
+   
+}
+
+label{
+    font-size: 20px;
+    margin-top: 30px;
+    
+}
+.gen{
+    
+  
+}
+
+.dob{
+  
+    margin-right: 9rem;
+}
+
+
+.form-bg{
+    
+    background-color: rgba(220, 213, 207, 0.466);
+    width: 80rem;
+    height: 90rem;
+    margin-top:1rem;
+    border-radius:15px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+<svg width="63" height="67" viewBox="0 0 63 67" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M31.3525 47.5C38.5572 47.5 44.398 41.2319 44.398 33.5C44.398 25.768 38.5572 19.5 31.3525 19.5C24.1476 19.5 18.3069 25.768 18.3069 33.5C18.3069 41.2319 24.1476 47.5 31.3525 47.5Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M2 47.5V19.5C2 9.83503 9.30087 2 18.3069 2H44.398C53.404 2 60.7049 9.83503 60.7049 19.5V47.5C60.7049 57.1649 53.404 65 44.398 65H18.3069C9.30087 65 2 57.1649 2 47.5Z" stroke="white" stroke-width="4"/>
+<path d="M49.2901 14.285L49.3227 14.2462" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg width="63" height="67" viewBox="0 0 63 67" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M31.3525 47.5C38.5572 47.5 44.398 41.2319 44.398 33.5C44.398 25.768 38.5572 19.5 31.3525 19.5C24.1476 19.5 18.3069 25.768 18.3069 33.5C18.3069 41.2319 24.1476 47.5 31.3525 47.5Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M2 47.5V19.5C2 9.83503 9.30087 2 18.3069 2H44.398C53.404 2 60.7049 9.83503 60.7049 19.5V47.5C60.7049 57.1649 53.404 65 44.398 65H18.3069C9.30087 65 2 57.1649 2 47.5Z" stroke="white" stroke-width="4"/>
+<path d="M49.2901 14.285L49.3227 14.2462" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg> */
+
+
+
+
+ 

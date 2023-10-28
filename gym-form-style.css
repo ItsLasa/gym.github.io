@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:500,400");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Encode Sans Condensed", Helvetica;
+    
+   
+}
+.logo img{
+
+    flex-direction: ;
+    position: relative;
+    width: 20%;
+    left: 20rem;
+    top:1rem;
+
+}
+.icon img{
+    position: relative;
+    width: 30px;
+    left: 20rem;
+    top: 2.5rem;
+}
+.title{
+    color: white;
+    font-size:27px;
+    margin-left: 22.5rem;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+.container{
+    padding: 10px;
+    width: 56%;
+    margin-left: 22%;
+    border-radius: 15px;
+    height: 85rem;
+    background-color: #dcd5cfb0;
+}
+
+.details-title{
+    font-size: 30px;
+    font-weight:bold;
+    margin-bottom: 8px;
+    margin-left: 2rem;
+    padding: 4px;
+}
+
+.person-details{
+    padding: 15px;
+    width: 44rem;
+    height: 14rem;
+    background: linear-gradient(180deg, rgb(58.44, 57.44, 55.52) 0%, 
+    rgba(191.25, 187.04, 164.95, 0) 100%);
+    border-radius: 15px;
+    border: 1px solid rgb(180, 180, 180);
+    color: white;
+    margin-left: 1rem;
+   
+   
+}
+
+.contact-info{
+    padding: 15px;
+    width: 44rem;
+    height: 11rem;
+    background: linear-gradient(180deg, rgb(58.44, 57.44, 55.52) 0%, rgba(191.25, 187.04, 164.95, 0) 100%);
+    border-radius: 15px;
+    border: 1px solid rgb(180, 180, 180);
+    color: white;
+    margin-left: 1rem;
+   
+}
+
+.branch{
+    padding: 15px;
+    width: 44rem;
+    height: 9rem;
+    background: linear-gradient(180deg, rgb(58.44, 57.44, 55.52) 0%, rgba(191.25, 187.04, 164.95, 0) 100%);
+    border-radius: 15px;
+    border: 1px solid rgb(180, 180, 180);
+    color: white;
+    margin-left:1rem;
+   
+}
+.membership-type{
+    padding: 15px;
+    width: 44rem;
+    height: 9rem;
+    background: linear-gradient(180deg, rgb(58.44, 57.44, 55.52) 0%, 
+    rgba(191.25, 187.04, 164.95, 0) 100%);
+    border-radius: 15px;
+    border: 1px solid rgb(180, 180, 180);
+    color: white;
+    margin-left: 1rem;
+   
+   
+}
+
+.membership-duartion{
+    padding: 15px;
+    width: 44rem;
+    height: 9rem;
+    background: linear-gradient(180deg, rgb(58.44, 57.44, 55.52) 0%, 
+    rgba(191.25, 187.04, 164.95, 0) 100%);
+    border-radius: 15px;
+    border: 1px solid rgb(180, 180, 180);
+    color: white;
+    margin-left: 1rem;
+   
+   
+}
+
+input[type="text"]{
+    width: 20rem;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 18px;
+    font-weight:lighter;
+}
+
+input[type="tel"]{
+    width: 40rem;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 18px;
+    font-weight:lighter;
+}
+
+input[type="email"]{
+    width: 40rem;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 18px;
+    font-weight:lighter;
+}
+
+select{
+    width: 40rem;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 17px;
+    padding: 10px;
+}
+
+
+
+::placeholder{
+    
+padding: 10px;
+font-size: 18px;
+color: black;
+}
+
+.dob,.gender{
+    
+    margin-left: 11px; 
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+
+input[type="date"]{
+   height: 30px;
+   border-radius: 2px;
+   border: none;
+   padding: 10px;
+   margin-left: 20px;
+}
+
+label[for="male"],label[for="female"]{
+    font-size: 17px;
+    font-weight: lighter;
+    color: black;
+  
+}
+label{
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+input[type="radio"]{
+    margin-left: 20px;
+}
+
+input{
+    margin-top: 20px;
+}
+
+
+select{
+    appearance: none;
+    padding: 10px;
+    background-image: url("assets/arrow.png");
+    background-repeat: no-repeat;
+    background-position: right 0.7rem top 50%;
+    background-size: 0.9rem auto;
+}
+
+.btn{
+    display: flex;
+    margin-left: 16%;
+    gap:1rem;
+   
+
+}
+
+.btn-submit,.btn-reset{
+    padding: 15px;
+    width: 40%;
+    font-size: 24px;
+    border: none;
+    border-radius: 10px;
+   
+    
+}
+
+.btn-submit:hover,.btn-reset:hover{
+    background-color: black;
+    color: white;
+    transition-duration: 0.1s;
+   cursor: pointer;
+    
+}
